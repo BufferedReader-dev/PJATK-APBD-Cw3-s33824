@@ -30,7 +30,10 @@ public static class DaneUczelni
             new Student { Id = 5, NumerIndeksu = "s30105", Imie = "Olga", Nazwisko = "Maj", Email = "olga.maj@uni.local", Miasto = "Wroclaw", DataUrodzenia = new DateTime(2001, 7, 26) },
             new Student { Id = 6, NumerIndeksu = "s30106", Imie = "Pawel", Nazwisko = "Kurek", Email = "pawel.kurek@uni.local", Miasto = "Poznan", DataUrodzenia = new DateTime(2000, 12, 14) },
             new Student { Id = 7, NumerIndeksu = "s30107", Imie = "Lena", Nazwisko = "Adamska", Email = "lena.adamska@uni.local", Miasto = "Warsaw", DataUrodzenia = new DateTime(2002, 3, 30) },
-            new Student { Id = 8, NumerIndeksu = "s30108", Imie = "Karol", Nazwisko = "Wysocki", Email = "karol.wysocki@uni.local", Miasto = "Lublin", DataUrodzenia = new DateTime(2001, 2, 20) }
+            new Student { Id = 8, NumerIndeksu = "s30108", Imie = "Karol", Nazwisko = "Wysocki", Email = "karol.wysocki@uni.local", Miasto = "Lublin", DataUrodzenia = new DateTime(2001, 2, 20) },
+            
+            new Student { Id = 9, NumerIndeksu = "s30108", Imie = "Archangel", Nazwisko = "Wysocki", Email = "karol.wysocki@uni.local", Miasto = "Lublin", DataUrodzenia = new DateTime(2001, 2, 20) }
+
         ]);
 
         Prowadzacy.AddRange(
@@ -48,7 +51,10 @@ public static class DaneUczelni
             new Przedmiot { Id = 3, Nazwa = "Analiza Danych w C#", Kategoria = "Analytics", Ects = 6, ProwadzacyId = 3, DataStartu = new DateTime(2026, 4, 1), DataZakonczenia = new DateTime(2026, 7, 10) },
             new Przedmiot { Id = 4, Nazwa = "Chmura dla Programistow", Kategoria = "Cloud", Ects = 5, ProwadzacyId = 2, DataStartu = new DateTime(2026, 4, 10), DataZakonczenia = new DateTime(2026, 7, 15) },
             new Przedmiot { Id = 5, Nazwa = "Bazy Danych Aplikacyjnych", Kategoria = "Databases", Ects = 6, ProwadzacyId = 1, DataStartu = new DateTime(2026, 5, 5), DataZakonczenia = new DateTime(2026, 7, 25) },
-            new Przedmiot { Id = 6, Nazwa = "Testowanie Oprogramowania", Kategoria = "Quality", Ects = 4, ProwadzacyId = 4, DataStartu = new DateTime(2026, 3, 22), DataZakonczenia = new DateTime(2026, 6, 18) }
+            new Przedmiot { Id = 6, Nazwa = "Testowanie Oprogramowania", Kategoria = "Quality", Ects = 4, ProwadzacyId = 4, DataStartu = new DateTime(2026, 3, 22), DataZakonczenia = new DateTime(2026, 6, 18) },
+            
+          // new Przedmiot { Id = 7, Nazwa = "Testowanie Oprogramowania Analitycznego", Kategoria = "Analytics", Ects = 4, ProwadzacyId = 4, DataStartu = new DateTime(2026, 3, 22), DataZakonczenia = new DateTime(2026, 6, 18) }
+
         ]);
 
         Zapisy.AddRange(
